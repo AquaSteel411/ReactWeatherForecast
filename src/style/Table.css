@@ -1,0 +1,22 @@
+@media (min-width: 601px) {
+    thead {
+        font-size: 1.5rem;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 0.5rem 0.5rem;
+        vertical-align: middle;
+    }
+}
+
+@media (max-width: 600px) {
+
+    thead {
+        font-size: 1rem;
+    }
+
+    .table>:not(caption)>*>* {
+        padding: 0.5rem 0.3rem;
+        vertical-align: middle;
+    }
+}
